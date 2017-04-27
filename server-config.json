@@ -1,0 +1,18 @@
+{
+  "port": 3000,
+  "databaseConfig": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "GenericServer"
+  },
+  "loggerConfig": {
+    "level": "debug",
+    "src": "boolean",
+    "stream": "process.stdout",
+    "pathFile": "logs/main.log"
+  },
+  "authConfig": {
+    "grantType": "password",
+    "authSecret": "MY-SECRET"
+  }
+}

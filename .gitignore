@@ -1,0 +1,10 @@
+.idea
+node_modules
+typings
+build
+logs
+UserUploads
+.DS_Store
+
+*.log
+npm-debug.*
